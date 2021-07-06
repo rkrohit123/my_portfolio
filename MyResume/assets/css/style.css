@@ -603,7 +603,7 @@ section {
 .modal-body .field {
     margin: 15px 0px -5px 0px;
     height: 45px;
-    border: 1px solid #dfdfdf;
+    border: 1px solid #7d2ae8;
     border-radius: 5px;
     padding: 0 5px
 }
@@ -614,7 +614,8 @@ section {
 
 .field span {
     width: 50px;
-    font-size: 1.1rem
+    font-size: 1.1rem;
+    background-color: #7d2ae8;
 }
 
 .field.active span {
@@ -626,7 +627,9 @@ section {
     outline: none;
     font-size: 0.89rem;
     width: 100%;
-    height: 100%
+    height: 85%;
+    background-color: #7d2ae8;
+    color: white;
 }
 
 .field button {
